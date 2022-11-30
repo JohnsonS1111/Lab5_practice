@@ -14,9 +14,15 @@ public class CalcTest {
     }
 
     @Test
+    public void testTimes(){
+        assertEquals(24, myCalc.Times(4,6));
+    }
+    
+    @Test
     public void testMinus(){
         assertEquals(6, myCalc.Minus(12,6));
     }
+    
     @Test
     public void testAdd(){
         assertEquals(5, myCalc.Add(2,3));
