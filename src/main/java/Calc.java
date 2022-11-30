@@ -8,8 +8,18 @@ public class Calc {
         num2 = 0;
         ans = 0;
     }
+    
     public int Times(int num1, int num2){
         ans = num1 * num2;
+    }
+
+    public int Minus(int num1, int num2){
+        ans = num1 - num2;
+    }
+    
+    public int Add(int num1, int num2){
+        ans = num1 + num2;
         return ans;
     }
+    
 }
