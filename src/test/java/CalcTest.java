@@ -5,8 +5,11 @@ import static org.junit.Assert.*;
 
 public class CalcTest {
 
+    Calc myCalc;
+
     @Before
     public void setUp() {
+        myCalc = new Calc();
     }
 
     @After
