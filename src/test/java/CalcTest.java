@@ -14,6 +14,9 @@ public class CalcTest {
     }
 
     @Test
+    public void testDivide(){
+        assertEquals(7, myCalc.Divide(21,3));
+    }
     public void testTimes(){
         assertEquals(24, myCalc.Times(4,6));
     }
