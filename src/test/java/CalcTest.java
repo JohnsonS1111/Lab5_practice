@@ -17,6 +17,10 @@ public class CalcTest {
     public void testMinus(){
         assertEquals(6, myCalc.Minus(12,6));
     }
+    @Test
+    public void testAdd(){
+        assertEquals(5, myCalc.Add(2,3));
+    }
 
     @After
     public void tearDown(){
