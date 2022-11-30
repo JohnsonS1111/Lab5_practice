@@ -13,4 +13,19 @@ public class Calc {
         ans = num1 / num2;
         return ans;
     }
+    
+    public int Times(int num1, int num2){
+        ans = num1 * num2;
+        return ans;
+    }
+
+    public int Minus(int num1, int num2){
+        ans = num1 - num2;
+        return ans;
+    }
+    
+    public int Add(int num1, int num2){
+        ans = num1 + num2;
+        return ans;
+    }
 }
